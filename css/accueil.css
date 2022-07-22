@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background: url(../imagesfinales/accueil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+  overflow-x: hidden;
+}
+body .container-first {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+body .container-first h1 {
+  text-transform: uppercase;
+  font-size: 80px;
+  color: #f5e4a9;
+  font-family: 'Dongle', sans-serif;
+}
+body .container-first h1 .surb {
+  color: #b36127;
+  font-size: 100px;
+}
+body .container-first h1 span {
+  position: relative;
+}
+body .container-first .container-btns {
+  position: relative;
+  top: 50px;
+}
+body .container-first .container-btns .btn-first {
+  font-family: 'Dongle', sans-serif;
+  border: 3px solid #f5e4a9;
+  outline: none;
+  background: transparent;
+  padding: 20px;
+  width: 250px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+body .container-first .container-btns .btn-first:nth-child(1) {
+  margin-right: 80px;
+}
+body .container-first .container-btns .btn-first:hover {
+  transition: all 0.3s ease-in-out;
+  background: #f5e4a9;
+}
+body .container-first .container-btns .btn-first a {
+  color: #b36127;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+body .ligne {
+  position: absolute;
+  top: 6%;
+  left: 5%;
+}
+body .ligne .l1 {
+  width: 250px;
+  height: 3px;
+  background: #b36127;
+  border-radius: 5px;
+}
+body .ligne .l2 {
+  width: 140px;
+  height: 3px;
+  background: #f5e4a9;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+}
+body .ligne .l3 {
+  width: 70px;
+  height: 3px;
+  background: #b36127;
+  border-radius: 5px;
+  position: relative;
+  top: 60px;
+}
+body .ligne .l4 {
+  width: 30px;
+  height: 3px;
+  background: #f5e4a9;
+  border-radius: 5px;
+  position: relative;
+  top: 90px;
+}
+body .ligne .l5 {
+  width: 1230px;
+  height: 8px;
+  background: #f5e4a9;
+  border-radius: 5px;
+  position: relative;
+  top: 330px;
+}
+body .logo {
+  position: absolute;
+  right: 2.9%;
+  top: 4%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+body .medias {
+  position: absolute;
+  right: 3.3%;
+  top: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .medias .bulle {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: 5px ridge rgba(179, 97, 39, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  background: #f5e4a9;
+  cursor: pointer;
+  position: relative;
+}
+body .medias .bulle .logo-medias {
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=accueil.css.map */
